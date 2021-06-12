@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_propritaire_du_ticket" label="Propriétaire du ticket" language="en" table="x_631216_yunit_yunit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_propritaire_du_ticket</element>
+            <help/>
+            <hint/>
+            <label>Propriétaire du ticket</label>
+            <language>en</language>
+            <name>x_631216_yunit_yunit</name>
+            <plural>Propriétaire du tickets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-12 18:24:21</sys_created_on>
+            <sys_id>4106a6842fb03010773e2b5df699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Propriétaire du ticket</sys_name>
+            <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+            <sys_update_name>sys_documentation_x_631216_yunit_yunit_u_propritaire_du_ticket_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-12 18:24:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

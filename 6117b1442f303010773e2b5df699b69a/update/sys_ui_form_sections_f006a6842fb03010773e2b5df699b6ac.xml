@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f006a6842fb03010773e2b5df699b6ac" sys_domain="global" table="x_631216_yunit_yunit" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-12 18:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3006a6842fb03010773e2b5df699b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_631216_yunit_yunit" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">f006a6842fb03010773e2b5df699b6ac</sys_ui_form>
+            <sys_ui_section caption="Yunit" display_value="Yunit" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">89451e882f703010773e2b5df699b62f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-12 18:24:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-12 18:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f006a6842fb03010773e2b5df699b6bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_631216_yunit_yunit" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">f006a6842fb03010773e2b5df699b6ac</sys_ui_form>
+            <sys_ui_section caption="Note" display_value="Note" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-12 18:24:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-12 18:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc06a6842fb03010773e2b5df699b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_631216_yunit_yunit" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">f006a6842fb03010773e2b5df699b6ac</sys_ui_form>
+            <sys_ui_section caption="Enregistrement associé" display_value="Enregistrement associé" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">f806a6842fb03010773e2b5df699b6aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-12 18:24:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-12 18:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b406a6842fb03010773e2b5df699b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_631216_yunit_yunit" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">f006a6842fb03010773e2b5df699b6ac</sys_ui_form>
+            <sys_ui_section caption="Résolution" display_value="Résolution" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">3406a6842fb03010773e2b5df699b6ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-12 18:24:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_631216_yunit_yunit</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-12 18:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f006a6842fb03010773e2b5df699b6ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_631216_yunit_yunit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f006a6842fb03010773e2b5df699b6ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-12 18:24:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

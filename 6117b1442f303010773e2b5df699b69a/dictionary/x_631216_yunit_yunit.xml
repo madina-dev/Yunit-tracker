@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" type="collection"/>
+    <element extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" type="collection">
+        <element attributes="encode_utf8=false" label="Affecté à" max_length="32" name="u_affect" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Bénéficiaire" max_length="32" name="u_beneficiaire" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Résolu le" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
+        <element default="0" label="Nombre de réouvertures" max_length="40" name="u_nombre_de_rouvertures" type="integer"/>
+        <element attributes="encode_utf8=false" label="Propriétaire du ticket" max_length="32" name="u_propritaire_du_ticket" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" label="Référence externe" max_length="32" name="u_reference_externe" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" label="Résolu par" max_length="32" name="u_resolupar" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" mandatory="true" max_length="40" name="u_source" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Téléphone" sequence="0" value="téléphone"/>
+                <element inactive_on_update="false" label="E-mail" sequence="1" value="e-mail"/>
+                <element inactive_on_update="false" label="Chat" sequence="2" value="chat"/>
+                <element inactive_on_update="false" label="Portail" sequence="3" value="portail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vip" max_length="40" name="u_vip" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+    </element>
 </database>
