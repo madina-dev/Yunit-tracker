@@ -3,34 +3,38 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Yunit On Submit Form</description>
+        <description>Yunit On Change Form</description>
         <field>active</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>YunitOnSubmit</name>
+        <name>YunitOnChange</name>
         <order/>
-        <script><![CDATA[function onSubmit() {
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
    //Type appropriate comment here, and begin script below
-   alert("Form Submitted Sucessfullly");
+   
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-12 19:25:34</sys_created_on>
+        <sys_created_on>2021-06-14 07:23:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9a91fa8c2fb03010773e2b5df699b6b5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>YunitOnSubmit</sys_name>
+        <sys_id>ef81e62c2ff47010773e2b5df699b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>YunitOnChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-        <sys_update_name>sys_script_client_9a91fa8c2fb03010773e2b5df699b6b5</sys_update_name>
+        <sys_update_name>sys_script_client_ef81e62c2ff47010773e2b5df699b663</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-14 07:22:17</sys_updated_on>
+        <sys_updated_on>2021-06-14 07:23:01</sys_updated_on>
         <table>x_631216_yunit_yunit</table>
-        <type>onSubmit</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
