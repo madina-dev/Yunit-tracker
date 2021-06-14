@@ -10,7 +10,7 @@
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
-        <element>business_service</element>
+        <element>urgency</element>
         <mandatory>true</mandatory>
         <mandatory_override>true</mandatory_override>
         <name>x_631216_yunit_yunit</name>
@@ -20,15 +20,15 @@
         <reference_qual_override>false</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-12 18:24:23</sys_created_on>
-        <sys_id>e106e6842fb03010773e2b5df699b64a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>business_service</sys_name>
+        <sys_created_on>2021-06-13 14:09:41</sys_created_on>
+        <sys_id>5c55729c2f7c3010773e2b5df699b691</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>urgency</sys_name>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-        <sys_update_name>sys_dictionary_override_e106e6842fb03010773e2b5df699b64a</sys_update_name>
+        <sys_update_name>sys_dictionary_override_5c55729c2f7c3010773e2b5df699b691</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-13 17:01:18</sys_updated_on>
+        <sys_updated_on>2021-06-13 14:09:41</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

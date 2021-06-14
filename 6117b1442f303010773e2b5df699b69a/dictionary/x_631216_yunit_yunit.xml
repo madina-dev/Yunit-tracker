@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" type="collection">
+    <element extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" sizeclass="1" type="collection">
         <element attributes="encode_utf8=false" label="Affecté à" max_length="32" name="u_affect" reference="sys_user_group" type="reference"/>
         <element attributes="encode_utf8=false" label="Bénéficiaire" max_length="32" name="u_beneficiaire" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Elément de configuration" mandatory="true" max_length="32" name="u_element_de_configuration" reference="svc_ci_assoc" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Résolu le" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Motif de résolution" max_length="40" name="u_motif_de_resolution" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Résolu" sequence="0" value="résolu"/>
+                <element inactive_on_update="false" label="Résolu par contournement" sequence="1" value="résolu par contournement"/>
+                <element inactive_on_update="false" label="Résolu par l’appelant ou le bénéficiaire" sequence="2" value="résolu par l’appelant ou le bénéficiaire"/>
+                <element inactive_on_update="false" label="Non reproductible" sequence="3" value="non reproductible"/>
+                <element inactive_on_update="false" label="Attente utilisateur" sequence="4" value="attente utilisateur"/>
+            </choice>
+        </element>
         <element default="0" label="Nombre de réouvertures" max_length="40" name="u_nombre_de_rouvertures" type="integer"/>
         <element attributes="encode_utf8=false" label="Propriétaire du ticket" max_length="32" name="u_propritaire_du_ticket" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="encode_utf8=false" label="Référence externe" max_length="32" name="u_reference_externe" reference="cmdb_ci_appl_dot_net" type="reference"/>

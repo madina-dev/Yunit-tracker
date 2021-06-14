@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_element_de_configuration" label="Elément de configuration" language="en" table="x_631216_yunit_yunit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_element_de_configuration</element>
+            <help/>
+            <hint/>
+            <label>Elément de configuration</label>
+            <language>en</language>
+            <name>x_631216_yunit_yunit</name>
+            <plural>Elément de configurations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-13 17:01:17</sys_created_on>
+            <sys_id>c29cd3182ffc3010773e2b5df699b68c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Elément de configuration</sys_name>
+            <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+            <sys_update_name>sys_documentation_x_631216_yunit_yunit_u_element_de_configuration_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-13 17:01:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
