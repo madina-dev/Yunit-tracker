@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="User" max_length="40" name="x_631216_yunit_user" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Adresse (lieu de présence)" max_length="40" name="u_adresse" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code d’imputation" max_length="40" name="u_codedimputation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Entité" max_length="40" name="u_entit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fonction" max_length="40" name="u_fonction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type de clients" mandatory="true" max_length="40" name="u_typedeclients" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Workday" sequence="0" value="workday"/>
+                <element inactive_on_update="false" label="Osmose" sequence="1" value="osmose"/>
+                <element inactive_on_update="false" label="Clients hors référentiel" sequence="2" value="clients hors référentiel"/>
+            </choice>
+        </element>
+    </element>
+</database>

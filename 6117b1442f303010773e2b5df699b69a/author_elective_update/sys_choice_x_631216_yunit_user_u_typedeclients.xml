@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_typedeclients" table="x_631216_yunit_user" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_typedeclients</element>
+            <name>x_631216_yunit_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 08:39:28</sys_created_on>
+            <sys_id>85537eec2fb03010c223ffecf699b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_typedeclients</sys_name>
+            <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+            <sys_update_name>sys_choice_x_631216_yunit_user_u_typedeclients</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 08:39:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typedeclients</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Workday</label>
+            <language>en</language>
+            <name>x_631216_yunit_user</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 08:39:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d537eec2fb03010c223ffecf699b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 08:39:28</sys_updated_on>
+            <value>workday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typedeclients</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Osmose</label>
+            <language>en</language>
+            <name>x_631216_yunit_user</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 08:39:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5537eec2fb03010c223ffecf699b6ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 08:39:28</sys_updated_on>
+            <value>osmose</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typedeclients</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clients hors référentiel</label>
+            <language>en</language>
+            <name>x_631216_yunit_user</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 08:39:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81537eec2fb03010c223ffecf699b6b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 08:39:28</sys_updated_on>
+            <value>clients hors référentiel</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
