@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_motif_problem" table="x_631216_yunit_probl_me" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_motif_problem</element>
+            <name>x_631216_yunit_probl_me</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:52</sys_created_on>
+            <sys_id>4b5245412fb8b010773e2b5df699b66e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_motif_problem</sys_name>
+            <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+            <sys_update_name>sys_choice_x_631216_yunit_probl_me_u_motif_problem</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_motif_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Résolu</label>
+            <language>en</language>
+            <name>x_631216_yunit_probl_me</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf5245412fb8b010773e2b5df699b66d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:52</sys_updated_on>
+            <value>résolu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_motif_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Résolu par contournement</label>
+            <language>en</language>
+            <name>x_631216_yunit_probl_me</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f5245412fb8b010773e2b5df699b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:52</sys_updated_on>
+            <value>résolu par contournement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_motif_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Résolu par l’appelant ou le bénéficiaire</label>
+            <language>en</language>
+            <name>x_631216_yunit_probl_me</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f5245412fb8b010773e2b5df699b672</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:52</sys_updated_on>
+            <value>résolu par l’appelant ou le bénéficiaire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_motif_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non reproductible</label>
+            <language>en</language>
+            <name>x_631216_yunit_probl_me</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f5245412fb8b010773e2b5df699b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:52</sys_updated_on>
+            <value>non reproductible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_motif_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attente utilisateur</label>
+            <language>en</language>
+            <name>x_631216_yunit_probl_me</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb5245412fb8b010773e2b5df699b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:52</sys_updated_on>
+            <value>attente utilisateur</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

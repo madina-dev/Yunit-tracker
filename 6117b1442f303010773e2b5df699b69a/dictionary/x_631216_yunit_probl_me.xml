@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Probleme" max_length="40" name="x_631216_yunit_probl_me" type="collection">
+    <element extends="task" label="Probleme" max_length="40" name="x_631216_yunit_probl_me" sizeclass="3" type="collection">
+        <element attributes="encode_utf8=false" label="Appelant par" max_length="32" name="u_created_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Motif résolution" max_length="40" name="u_motif_problem" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Résolu" sequence="0" value="résolu"/>
+                <element inactive_on_update="false" label="Résolu par contournement" sequence="1" value="résolu par contournement"/>
+                <element inactive_on_update="false" label="Résolu par l’appelant ou le bénéficiaire" sequence="2" value="résolu par l’appelant ou le bénéficiaire"/>
+                <element inactive_on_update="false" label="Non reproductible" sequence="3" value="non reproductible"/>
+                <element inactive_on_update="false" label="Attente utilisateur" sequence="4" value="attente utilisateur"/>
+            </choice>
+        </element>
         <element label="Nombre de réouvertures" max_length="40" name="u_nombre_de_reouverture" type="integer"/>
         <element label="Nombre de réouvertures" max_length="40" name="u_nombre_rouvertures_prob" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Note de clôture" max_length="4000" name="u_note_cloture" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Résolu le" max_length="40" name="u_resolu_le" read_only="true" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Résolu par" max_length="32" name="u_resolu_par" reference="sys_user" type="reference"/>
     </element>
 </database>

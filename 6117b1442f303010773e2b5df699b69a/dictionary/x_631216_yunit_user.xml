@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_user" label="User" max_length="40" name="x_631216_yunit_user" type="collection">
+    <element extends="sys_user" label="User" max_length="40" name="x_631216_yunit_user" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Adresse (lieu de présence)" max_length="40" name="u_adresse" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Code d’imputation" max_length="40" name="u_codedimputation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Entité" max_length="40" name="u_entit" type="string"/>
