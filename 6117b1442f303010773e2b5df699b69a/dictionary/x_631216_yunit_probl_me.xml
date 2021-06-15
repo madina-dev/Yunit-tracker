@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Probleme" max_length="40" name="x_631216_yunit_probl_me" type="collection">
+    <element extends="task" label="Probleme" max_length="40" name="x_631216_yunit_probl_me" sizeclass="0" type="collection">
         <element label="Nombre de réouvertures" max_length="40" name="u_nombre_de_reouverture" type="integer"/>
         <element label="Nombre de réouvertures" max_length="40" name="u_nombre_rouvertures_prob" type="integer"/>
     </element>
