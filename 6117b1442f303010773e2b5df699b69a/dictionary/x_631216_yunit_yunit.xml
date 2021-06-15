@@ -7,10 +7,11 @@
                 <element inactive_on_update="false" label="test 3" sequence="2" value="test 3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Action" mandatory="true" max_length="40" name="u_action" type="string"/>
         <element attributes="encode_utf8=false" label="Affecté à" max_length="32" name="u_affect" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="appelant" mandatory="true" max_length="40" name="u_appelant" reference="sys_user" type="string"/>
         <element attributes="encode_utf8=false" label="Bénéficiaire" mandatory="true" max_length="32" name="u_beneficiaire" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="Elément de configuration" mandatory="true" max_length="32" name="u_element_de_configuration" reference="svc_ci_assoc" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Elément de configuration" max_length="32" name="u_element_de_configuration" reference="cmdb_ci" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Résolu le" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Motif de résolution" max_length="40" name="u_motif_de_resolution" type="string">
             <choice>
@@ -21,7 +22,7 @@
                 <element inactive_on_update="false" label="Attente utilisateur" sequence="4" value="attente utilisateur"/>
             </choice>
         </element>
-        <element default="0" label="Nombre de réouvertures" max_length="40" name="u_nombre_de_rouvertures" type="integer"/>
+        <element attributes="encode_utf8=false" label="Problème" max_length="32" name="u_problemes" reference="x_631216_yunit_probl_me" type="reference"/>
         <element attributes="encode_utf8=false" label="Propriétaire du ticket" max_length="32" name="u_propritaire_du_ticket" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="encode_utf8=false" label="New Reference" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Référence externe" max_length="32" name="u_reference_externe" reference="cmdb_ci_appl_dot_net" type="reference"/>

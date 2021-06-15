@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_nombre_de_rouvertures" label="Nombre de réouvertures" language="en" table="x_631216_yunit_yunit">
+    <sys_documentation element="u_problemes" label="Problème" language="en" table="x_631216_yunit_yunit">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_nombre_de_rouvertures</element>
+            <element>u_problemes</element>
             <help/>
             <hint/>
-            <label>Nombre de réouvertures</label>
+            <label>Problème</label>
             <language>en</language>
             <name>x_631216_yunit_yunit</name>
-            <plural>Nombre de réouvertures</plural>
+            <plural>Problèmes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-12 18:24:21</sys_created_on>
-            <sys_id>0106a6842fb03010773e2b5df699b6e1</sys_id>
+            <sys_created_on>2021-06-15 06:13:26</sys_created_on>
+            <sys_id>ab7b53b42f74b010773e2b5df699b6bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Nombre de réouvertures</sys_name>
+            <sys_name>Problème</sys_name>
             <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
             <sys_policy/>
             <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-            <sys_update_name>sys_documentation_x_631216_yunit_yunit_u_nombre_de_rouvertures_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_631216_yunit_yunit_u_problemes_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-12 18:24:21</sys_updated_on>
+            <sys_updated_on>2021-06-15 06:13:26</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
