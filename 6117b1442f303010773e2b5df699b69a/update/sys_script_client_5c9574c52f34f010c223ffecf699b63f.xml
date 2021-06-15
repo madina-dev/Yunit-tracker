@@ -18,14 +18,18 @@
    //Type appropriate comment here, and begin script below
 	var appelantValue = newValue;
 	var ga = new GlideAjax('GetUserInfo');
-	ga.addParam('sysparm_name','getUserVIP');
+	ga.addParam('sysparm_name','getUserDetails');
 	ga.addParam('sysparm_sysId', appelantValue);
 	ga.getXMLAnswer(function(answer){
 		var data = JSON.parse(answer);
+		var ref_appelant = g_form.getElement('sys_display.x_631216_yunit_yunit.u_ref_appelant');
+		var beneficiaryElement = g_form.getElement('sys_display.x_631216_yunit_yunit.u_beneficiaire');
 		if(data.vip === 'true'){
-			alert(data.vip);
-			//var myVar = $('sys_display.' + g_form.getControl('u_beneficiaire').id);
-			//myVar.setStyle({color: "red"});
+			ref_appelant.setStyle({color: "red"});
+			beneficiaryElement.setStyle({color: "red"});
+		}else{
+			ref_appelant.setStyle({color: "black"});
+			beneficiaryElement.setStyle({color: "black"});
 		}
 		
 		g_form.setValue('u_beneficiaire', newValue);
@@ -39,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c9574c52f34f010c223ffecf699b63f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>YunitOnChangeAppelant</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
@@ -47,7 +51,7 @@
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
         <sys_update_name>sys_script_client_5c9574c52f34f010c223ffecf699b63f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 13:05:48</sys_updated_on>
+        <sys_updated_on>2021-06-15 16:18:01</sys_updated_on>
         <table>x_631216_yunit_yunit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
