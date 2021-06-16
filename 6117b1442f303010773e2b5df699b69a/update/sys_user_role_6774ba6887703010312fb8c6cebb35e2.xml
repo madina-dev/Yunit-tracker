@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="x_631216_yunit.RESPONSABLE ASSISTANCE UTILISATEUR" name="x_631216_yunit.RESPONSABLE ASSISTANCE UTILISATEUR">e8dc97e887f03010312fb8c6cebb358f</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description>• Etre le premier point de contact des utilisateurs (guichet unique)&#13;
+&#13;
+• Apporter un premier niveau de résolution des incidents&#13;
+&#13;
+• Etre propriétaire des incidents et suivre leur cycle de vie jusqu'à leur clôture&#13;
+&#13;
+• Clôturer tous les incidents résolus au niveau de l'Assistance Utilisateur</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_631216_yunit.COLLABORATEUR_ASSISTANCE_UTILISATEUR</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>COLLABORATEUR_ASSISTANCE_UTILISATEUR</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 09:40:46</sys_created_on>
+        <sys_id>6774ba6887703010312fb8c6cebb35e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_631216_yunit.COLLABORATEUR_ASSISTANCE_UTILISATEUR</sys_name>
+        <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+        <sys_update_name>sys_user_role_6774ba6887703010312fb8c6cebb35e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 09:48:24</sys_updated_on>
+    </sys_user_role>
+</record_update>

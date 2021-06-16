@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 10:48:51</sys_created_on>
+        <sys_id>833057e087f03010312fb8c6cebb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_631216_yunit.Collaborateur_Assistance_Utilisateur</sys_name>
+        <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+        <sys_security_acl display_value="">b9305ba087f03010312fb8c6cebb3548</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_833057e087f03010312fb8c6cebb35a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 10:48:51</sys_updated_on>
+        <sys_user_role display_value="x_631216_yunit.Collaborateur_Assistance_Utilisateur" name="x_631216_yunit.Collaborateur_Assistance_Utilisateur">6774ba6887703010312fb8c6cebb35e2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yunit">6117b1442f303010773e2b5df699b69a</application>
+        <file_path/>
+        <instance_id>4c132061db3037c007072f17d496193e</instance_id>
+        <instance_name>dev80691</instance_name>
+        <name>sys_security_acl_role_833057e087f03010312fb8c6cebb35a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-14 10:48:51</sys_created_on><sys_id>833057e087f03010312fb8c6cebb35a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_631216_yunit.Collaborateur_Assistance_Utilisateur</sys_name><sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package><sys_policy/><sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope><sys_security_acl display_value="">b9305ba087f03010312fb8c6cebb3548</sys_security_acl><sys_update_name>sys_security_acl_role_833057e087f03010312fb8c6cebb35a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-14 10:48:51</sys_updated_on><sys_user_role display_value="x_631216_yunit.Collaborateur_Assistance_Utilisateur" name="x_631216_yunit.Collaborateur_Assistance_Utilisateur">6774ba6887703010312fb8c6cebb35e2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1053535062</payload_hash>
+        <record_name>.x_631216_yunit.Collaborateur_Assistance_Utilisateur</record_name>
+        <reverted_from/>
+        <source>bca91ee887303010312fb8c6cebb35c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 10:48:51</sys_created_on>
+        <sys_id>e0f057e087f03010312fb8c6cebb35b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a0a236dfd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 10:48:51</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2cf057e05cf030104b68e036c68b14af</update_guid>
+        <update_guid_history>2cf057e05cf030104b68e036c68b14af:1053535062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_631216_yunit.Collaborateur_Assistance_Utilisateur">24f2e7b887bc3010312fb8c6cebb3597</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 06:45:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2c504919aa1745a29cbf4b7cc27a0c71</sys_id>
+        <sys_metadata>833057e087f03010312fb8c6cebb35a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_631216_yunit.Collaborateur_Assistance_Utilisateur</sys_name>
+        <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+        <sys_scope_delete display_value="">597c66cfd07e4a66adc7eba7789593e4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_833057e087f03010312fb8c6cebb35a7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_833057e087f03010312fb8c6cebb35a7">e0f057e087f03010312fb8c6cebb35b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 06:45:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
