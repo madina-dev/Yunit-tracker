@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Note" section_id="7406a6842fb03010773e2b5df699b6a9" sys_domain="global" table="x_631216_yunit_yunit" version="3" view="">
+    <sys_ui_section caption="Notes" section_id="7406a6842fb03010773e2b5df699b6a9" sys_domain="global" table="x_631216_yunit_yunit" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>watch_list</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-15 13:06:38</sys_created_on>
-            <sys_id>501ab8c92f78b010773e2b5df699b6c6</sys_id>
+            <sys_created_on>2021-06-16 07:13:23</sys_created_on>
+            <sys_id>dbc2705d2fb03410c223ffecf699b611</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Note" display_value="Note" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-15 13:06:38</sys_updated_on>
+            <sys_updated_on>2021-06-16 07:13:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>group_list</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-15 13:06:38</sys_created_on>
-            <sys_id>d01ab8c92f78b010773e2b5df699b6c6</sys_id>
+            <sys_created_on>2021-06-16 07:13:23</sys_created_on>
+            <sys_id>5fc2705d2fb03410c223ffecf699b611</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Note" display_value="Note" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-15 13:06:38</sys_updated_on>
+            <sys_updated_on>2021-06-16 07:13:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>work_notes</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-15 13:06:38</sys_created_on>
-            <sys_id>541ab8c92f78b010773e2b5df699b6c6</sys_id>
+            <sys_created_on>2021-06-16 07:13:23</sys_created_on>
+            <sys_id>dfc2705d2fb03410c223ffecf699b611</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Note" display_value="Note" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-15 13:06:38</sys_updated_on>
+            <sys_updated_on>2021-06-16 07:13:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_additinnel_commentaire</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-15 13:06:38</sys_created_on>
-            <sys_id>d41ab8c92f78b010773e2b5df699b6c6</sys_id>
+            <sys_created_on>2021-06-16 07:13:23</sys_created_on>
+            <sys_id>53c2705d2fb03410c223ffecf699b612</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Note" display_value="Note" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-15 13:06:38</sys_updated_on>
+            <sys_updated_on>2021-06-16 07:13:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,18 +60,18 @@
             <element>activity.xml</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-15 13:06:38</sys_created_on>
-            <sys_id>581ab8c92f78b010773e2b5df699b6c6</sys_id>
+            <sys_created_on>2021-06-16 07:13:23</sys_created_on>
+            <sys_id>d3c2705d2fb03410c223ffecf699b612</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activity Formatter">65f060892f38b010773e2b5df699b69e</sys_ui_formatter>
-            <sys_ui_section caption="Note" display_value="Note" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_631216_yunit_yunit" sys_domain="global" view="Default view">7406a6842fb03010773e2b5df699b6a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-15 13:06:38</sys_updated_on>
+            <sys_updated_on>2021-06-16 07:13:23</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Note</caption>
+            <caption>Notes</caption>
             <header>false</header>
             <name>x_631216_yunit_yunit</name>
             <roles/>
@@ -81,7 +81,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7406a6842fb03010773e2b5df699b6a9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_631216_yunit_yunit</sys_name>
             <sys_overrides/>
             <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
@@ -89,7 +89,7 @@
             <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
             <sys_update_name>sys_ui_section_7406a6842fb03010773e2b5df699b6a9</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-12 18:24:20</sys_updated_on>
+            <sys_updated_on>2021-06-16 07:13:21</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
