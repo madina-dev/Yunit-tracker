@@ -42,7 +42,7 @@
         <update_guid_history>47e19b2417f030105f57c1266f1ef5b1:763682419</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".x_631216_yunit.Collaborateur_Assistance_Utilisateur">22d2e7b887bc3010312fb8c6cebb352c</sys_audit_delete>
+        <sys_audit_delete display_value="">22d2e7b887bc3010312fb8c6cebb352c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-15 06:45:35</sys_created_on>

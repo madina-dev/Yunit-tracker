@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_631216_yunit_yunit">business_service=593bdf642fb87010773e2b5df699b6c5^ORbusiness_service=88ea1f642fb87010773e2b5df699b6f7^EQ<item endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="false" value="593bdf642fb87010773e2b5df699b6c5"/>
-            <item endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="true" value="88ea1f642fb87010773e2b5df699b6f7"/>
+        <conditions table="x_631216_yunit_yunit">business_service=593bdf642fb87010773e2b5df699b6c5^ORbusiness_service=88ea1f642fb87010773e2b5df699b6f7^EQ<item display_table="cmdb_ci_service" display_value="Assurance " endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="false" value="593bdf642fb87010773e2b5df699b6c5"/>
+            <item display_table="cmdb_ci_service" display_value="Maintenance " endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="true" value="88ea1f642fb87010773e2b5df699b6f7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

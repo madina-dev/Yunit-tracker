@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_631216_yunit.Notif event script</event_name>
+        <fired_by>Business Rule:</fired_by>
+        <queue/>
+        <suffix>Notif event script</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 12:45:34</sys_created_on>
+        <sys_id>008ebdd92ff4f010773e2b5df699b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_631216_yunit.Notif event script</sys_name>
+        <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+        <sys_update_name>sysevent_register_008ebdd92ff4f010773e2b5df699b665</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:45:34</sys_updated_on>
+        <table>x_631216_yunit_yunit</table>
+    </sysevent_register>
+</record_update>
