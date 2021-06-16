@@ -16,18 +16,23 @@ GetUserInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			sysId: "",
 			vip: "",
 			phoneNumber: "",
-			landLine: ""
+			site: "",
+			codeSite: ""
 		};
 		
 		if(!gs.nil(sysId)){
 			gs.debug('record:' + sysId);
-			var userGR = new GlideRecord('sys_user');
+			var userGR = new GlideRecord('x_631216_yunit_user');
 			userGR.addQuery('sys_id',sysId);
 			userGR.query();
 			
 			while(userGR.next()){
 				result.vip = userGR.vip.getDisplayValue();
 				result.sysId = userGR.sys_id.getDisplayValue();
+				//gs.dubug('phone:' + userGR.phone.getDisplayValue());
+				result.phoneNumber = userGR.phone.getDisplayValue();
+				result.site = userGR.u_site.getDisplayValue();
+				result.codeSite = userGR.u_code_site.getDisplayValue();
 			}
 			gs.debug('result:' + result);
 			return JSON.stringify(result);
@@ -41,13 +46,13 @@ GetUserInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-15 09:57:45</sys_created_on>
         <sys_id>c84dc88d2f70f010c223ffecf699b6f7</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>GetUserInfo</sys_name>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
         <sys_update_name>sys_script_include_c84dc88d2f70f010c223ffecf699b6f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 16:14:43</sys_updated_on>
+        <sys_updated_on>2021-06-16 03:53:03</sys_updated_on>
     </sys_script_include>
 </record_update>
