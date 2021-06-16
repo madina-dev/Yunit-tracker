@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_631216_yunit.DateTimeUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DateTimeUtils</name>
+        <script><![CDATA[var DateTimeUtils = Class.create();
+DateTimeUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getDateTimeNow: function () 
+	{
+		gs.debug('entering get Date time now');
+		//var now = gs.nowDateTime();
+		var gdt1 = new GlideDateTime();
+		var display=gdt1.getDisplayValue();
+		gs.debug('now date time:' + display);
+		return display; 
+	},
+    type: 'DateTimeUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 12:17:09</sys_created_on>
+        <sys_id>71e77d9d2fb43410c223ffecf699b665</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DateTimeUtils</sys_name>
+        <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
+        <sys_update_name>sys_script_include_71e77d9d2fb43410c223ffecf699b665</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:25:30</sys_updated_on>
+    </sys_script_include>
+</record_update>
