@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" sizeclass="0" type="collection">
+    <element audit="true" extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Symptôme" max_length="40" name="sympt_me" type="string">
             <choice>
                 <element inactive_on_update="false" label="TEST 1" sequence="0" value="TEST 1"/>
@@ -8,6 +8,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Action" mandatory="true" max_length="40" name="u_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Commentaires additionnel" max_length="4000" name="u_additinnel_commentaire" type="journal"/>
         <element attributes="encode_utf8=false" label="Affecté à" max_length="32" name="u_affect" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="appelant" mandatory="true" max_length="40" name="u_appelant" reference="sys_user" type="string"/>
         <element attributes="encode_utf8=false" label="Bénéficiaire" mandatory="true" max_length="32" name="u_beneficiaire" reference="sys_user" type="reference"/>

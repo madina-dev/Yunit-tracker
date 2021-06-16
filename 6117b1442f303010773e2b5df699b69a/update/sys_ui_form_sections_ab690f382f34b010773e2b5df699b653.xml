@@ -28,6 +28,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-06-15 04:54:32</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-15 13:42:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>965205412fb8b010773e2b5df699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_631216_yunit_probl_me" name="x_631216_yunit_probl_me" sys_domain="global" view="Default view">ab690f382f34b010773e2b5df699b653</sys_ui_form>
+            <sys_ui_section caption="Informations de résolution" display_value="Informations de résolution" name="x_631216_yunit_probl_me" sys_domain="global" view="Default view">da5205412fb8b010773e2b5df699b6e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-15 13:42:49</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_631216_yunit_probl_me</name>
             <roles/>

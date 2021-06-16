@@ -30,8 +30,8 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var gr = new GlideRecord('probleme');
-	gr.addQuery('Problème',current.u_problemes);
+	var gr = new GlideRecord('Problemes');
+	gr.addQuery('sys_id',current.u_problemes);
 	gr.query();
 	if(gr.next())
 		{
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7f2633c2f74b010773e2b5df699b621</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>le nombre de problèmes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
         <sys_update_name>sys_script_b7f2633c2f74b010773e2b5df699b621</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 07:12:02</sys_updated_on>
+        <sys_updated_on>2021-06-15 09:03:32</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

@@ -4,46 +4,41 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>u_element_de_configuration</field>
+        <field>u_resolu_par</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Set Server Ci details</name>
+        <name>Resolu par </name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
+    if (isLoading || newValue === '') {
+        return;
+    }
+  var user = g_user.userID;
+    //Type appropriate comment here, and begin script below
+    if (newValue == '4') {
+      
+         g_form.setValue('u_resolu_par', user);
+      //  g_form.setValue('u_resolu_par', g_user.userID);
+    }
 
-   //
-	var ga = new GlideAjax('IncFunction');
-	ga.addParam('sysparam_name','getCIDetails');
-	ga.addParam('u_element_de_configuration', g_form.getValue('cmdb_ci'));//sysparm_ci
-	ga.getXML(showDetails);
-	
-	function showDetails(response)
-	{
-		var answer = response.responseXML.documentElement.getAttribute("answer");
-		g_form.setValue('short_description', answer);
-	}
-  
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-14 15:54:27</sys_created_on>
+        <sys_created_on>2021-06-15 13:54:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e1c314bc2f3c7010773e2b5df699b6a1</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Set Server Ci details</sys_name>
+        <sys_id>db54c9812fb8b010773e2b5df699b6e4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Resolu par </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-        <sys_update_name>sys_script_client_e1c314bc2f3c7010773e2b5df699b6a1</sys_update_name>
+        <sys_update_name>sys_script_client_db54c9812fb8b010773e2b5df699b6e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 08:52:15</sys_updated_on>
-        <table>x_631216_yunit_yunit</table>
+        <sys_updated_on>2021-06-15 14:05:01</sys_updated_on>
+        <table>x_631216_yunit_probl_me</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>

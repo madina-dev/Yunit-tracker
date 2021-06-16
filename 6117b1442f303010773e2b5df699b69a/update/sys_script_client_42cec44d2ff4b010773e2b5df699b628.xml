@@ -4,41 +4,41 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>state</field>
+        <field>active</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Motif de resolution</name>
+        <name>Set Caller</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading || newValue === '') {
-        return;
-    }
-
-    //Type appropriate comment here, and begin script below
-    if (newValue == '4') {
-        g_form.setMandatory('u_motif_de_resolution', true)
-    }
-
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	if(g_form.isNewRecord()){
+		
+		var user = g_user.userID;
+		
+		g_form.setValue('u_created_by',user);
+	}
+   
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-15 07:18:38</sys_created_on>
+        <sys_created_on>2021-06-15 10:03:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2899e3702fb4b010773e2b5df699b625</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Motif de resolution</sys_name>
+        <sys_id>42cec44d2ff4b010773e2b5df699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Caller</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-        <sys_update_name>sys_script_client_2899e3702fb4b010773e2b5df699b625</sys_update_name>
+        <sys_update_name>sys_script_client_42cec44d2ff4b010773e2b5df699b628</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 10:53:05</sys_updated_on>
-        <table>x_631216_yunit_yunit</table>
-        <type>onChange</type>
-        <ui_type>10</ui_type>
+        <sys_updated_on>2021-06-15 10:03:02</sys_updated_on>
+        <table>x_631216_yunit_probl_me</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
 </record_update>
