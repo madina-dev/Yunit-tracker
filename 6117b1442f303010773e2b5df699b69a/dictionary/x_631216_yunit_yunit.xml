@@ -9,7 +9,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Action" mandatory="true" max_length="40" name="u_action" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Commentaires additionnel" max_length="4000" name="u_additinnel_commentaire" type="journal"/>
-        <element attributes="encode_utf8=false" label="Affecté à" max_length="32" name="u_affect" reference="x_631216_yunit_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Affecté à" max_length="32" name="u_affect" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="appelant" mandatory="true" max_length="40" name="u_appelant" reference="sys_user" type="string"/>
         <element attributes="encode_utf8=false" label="Bénéficiaire" mandatory="true" max_length="32" name="u_beneficiaire" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Code lieu d’intervention" mandatory="true" max_length="40" name="u_code_lieu" type="string"/>
