@@ -15,6 +15,7 @@
         <element attributes="edge_encryption_enabled=true" label="Code lieu d’intervention" mandatory="true" max_length="40" name="u_code_lieu" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Elément de configuration" mandatory="true" max_length="32" name="u_element_de_configuration" reference="cmdb_ci_server" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Résolu le" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Groupe d’affectation" mandatory="true" max_length="32" name="u_groupe_affection" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Lieu d'intervention" max_length="40" name="u_lieu_intervention" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Motif de résolution" max_length="40" name="u_motif_de_resolution" type="string">
             <choice>
@@ -25,8 +26,8 @@
                 <element inactive_on_update="false" label="Attente utilisateur" sequence="4" value="attente utilisateur"/>
             </choice>
         </element>
-        <element label="Nombre de réaffectations" max_length="40" name="u_nombre_de_reaffectation" read_only="true" type="integer"/>
-        <element label="Nombre de réouvertures" max_length="40" name="u_nombre_de_reouvertures" read_only="true" type="integer"/>
+        <element default="0" label="Nombre de réaffectations" max_length="40" name="u_nombre_de_reaffectation" read_only="true" type="integer"/>
+        <element default="0" label="Nombre de réouvertures" max_length="40" name="u_nombre_de_reouvertures" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Notes de travail" max_length="4000" name="u_notes_travail" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Notes de résolution" max_length="4000" name="u_note_de_resolution" type="journal"/>
         <element attributes="encode_utf8=false" label="Problème" max_length="32" name="u_problemes" reference="x_631216_yunit_probl_me" type="reference"/>
