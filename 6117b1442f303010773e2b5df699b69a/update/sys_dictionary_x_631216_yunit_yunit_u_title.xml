@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_note_de_resolution" table="x_631216_yunit_yunit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_title" table="x_631216_yunit_yunit">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+	gs.debug('Calculating Title Value');
+	if(!current.business_service.nil() && !current.u_element_de_configuration.nil()){
+		gs.debug('Inside logic');
+	}
+	gs.debug('business_service: ' + current.business_service );
+		gs.debug('u_element_de_configuration: ' + current.u_element_de_configuration);
+		gs.debug('u_action: ' + current.u_action);
+		gs.debug('u_symptome: ' + current.u_symptome);
+	// Add your code here
+	return 'test';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Notes de résolution</column_label>
+        <column_label>Titre</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,18 +34,18 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_note_de_resolution</element>
+        <element>u_title</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Journal">journal</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>4000</max_length>
+        <max_length>140</max_length>
         <name>x_631216_yunit_yunit</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -47,23 +59,23 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-16 07:13:22</sys_created_on>
-        <sys_id>d7c2305d2fb03410c223ffecf699b6f1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Notes de résolution</sys_name>
+        <sys_created_on>2021-06-17 05:23:55</sys_created_on>
+        <sys_id>3153a1ed2ff07410c223ffecf699b658</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Titre</sys_name>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-        <sys_update_name>sys_dictionary_x_631216_yunit_yunit_u_note_de_resolution</sys_update_name>
+        <sys_update_name>sys_dictionary_x_631216_yunit_yunit_u_title</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-17 06:17:25</sys_updated_on>
+        <sys_updated_on>2021-06-17 05:45:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
