@@ -2,12 +2,12 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.state == 4</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -27,9 +27,12 @@
         <list_style/>
         <messages/>
         <name>Fermer</name>
-        <onclick/>
+        <onclick>btnFermer()</onclick>
         <order>600</order>
-        <script/>
+        <script><![CDATA[function btnFermer(){
+    g_form.setValue('state', 7);
+    g_form.setDisabled('state', true);
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -40,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff368b212fb87410c223ffecf699b697</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Fermer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
@@ -48,7 +51,7 @@
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
         <sys_update_name>sys_ui_action_ff368b212fb87410c223ffecf699b697</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-17 12:36:19</sys_updated_on>
+        <sys_updated_on>2021-06-17 18:41:06</sys_updated_on>
         <table>x_631216_yunit_yunit</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
