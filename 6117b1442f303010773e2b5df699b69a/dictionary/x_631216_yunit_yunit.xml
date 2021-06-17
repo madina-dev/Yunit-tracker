@@ -27,9 +27,10 @@
         </element>
         <element label="Nombre de réaffectations" max_length="40" name="u_nombre_de_reaffectation" read_only="true" type="integer"/>
         <element label="Nombre de réouvertures" max_length="40" name="u_nombre_de_reouvertures" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes de travail" max_length="4000" name="u_notes_travail" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Notes de résolution" max_length="4000" name="u_note_de_resolution" type="journal"/>
         <element attributes="encode_utf8=false" label="Problème" max_length="32" name="u_problemes" reference="x_631216_yunit_probl_me" type="reference"/>
-        <element attributes="encode_utf8=false" label="Propriétaire du ticket" mandatory="true" max_length="32" name="u_propritaire_du_ticket" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" label="Propriétaire du ticket" max_length="32" name="u_propritaire_du_ticket" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="encode_utf8=false" label="New Reference" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Référence externe" max_length="32" name="u_reference_externe" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="encode_utf8=false" label="Appelant" mandatory="true" max_length="32" name="u_ref_appelant" reference="sys_user" type="reference"/>
