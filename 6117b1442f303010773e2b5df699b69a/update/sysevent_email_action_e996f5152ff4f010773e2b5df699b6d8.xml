@@ -46,7 +46,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields>u_ref_appelant,u_affect</recipient_fields>
-        <recipient_groups name="Support Desk ">85a5f5152ff4f010773e2b5df699b6d5</recipient_groups>
+        <recipient_groups>85a5f5152ff4f010773e2b5df699b6d5</recipient_groups>
         <recipient_users>1095ce112f38f010773e2b5df699b681</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
