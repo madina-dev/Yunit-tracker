@@ -12,7 +12,6 @@
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
-	  g_form.setValue('u_title', '');
       return;
    }
 
@@ -43,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc9a2ee12f387410c223ffecf699b613</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>YunitOnChangeService</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
@@ -51,7 +50,7 @@
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
         <sys_update_name>sys_script_client_fc9a2ee12f387410c223ffecf699b613</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-17 10:49:07</sys_updated_on>
+        <sys_updated_on>2021-06-18 10:48:06</sys_updated_on>
         <table>x_631216_yunit_yunit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
