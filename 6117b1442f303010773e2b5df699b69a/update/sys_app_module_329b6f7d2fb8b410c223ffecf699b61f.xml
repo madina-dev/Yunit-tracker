@@ -10,9 +10,9 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Users</mobile_title>
+        <mobile_title>Test</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_631216_yunit_user</name>
+        <name>x_631216_yunit_yunit</name>
         <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -20,21 +20,21 @@
         <roles>x_631216_yunit.Yunit_admin,admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-14 08:15:15</sys_created_on>
+        <sys_created_on>2021-06-18 09:58:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>12cdeaa82fb03010c223ffecf699b67a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Users</sys_name>
+        <sys_id>329b6f7d2fb8b410c223ffecf699b61f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
-        <sys_update_name>sys_app_module_12cdeaa82fb03010c223ffecf699b67a</sys_update_name>
+        <sys_update_name>sys_app_module_329b6f7d2fb8b410c223ffecf699b61f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-18 10:12:47</sys_updated_on>
+        <sys_updated_on>2021-06-18 10:03:32</sys_updated_on>
         <timeline_page/>
-        <title>Users</title>
+        <title>All</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
