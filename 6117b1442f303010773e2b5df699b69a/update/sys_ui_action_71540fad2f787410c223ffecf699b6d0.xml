@@ -37,7 +37,7 @@
 		g_form.setValue('u_groupe_affection', '');
 		g_form.setMandatory('u_groupe_affection', true);
 		var getNombreDeReaffecte = g_form.getValue('u_nombre_de_reaffectation');
-		var newValue = getNombreDeReaffecte != '' ? getNombreDeReaffecte + 1 : 1;
+		var newValue = getNombreDeReaffecte != '' ? parseInt(getNombreDeReaffecte) + 1 : 1;
 		g_form.setValue('u_nombre_de_reaffectation', newValue);
 		
 		
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>71540fad2f787410c223ffecf699b6d0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Réaffecter</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yunit" source="x_631216_yunit">6117b1442f303010773e2b5df699b69a</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Yunit">6117b1442f303010773e2b5df699b69a</sys_scope>
         <sys_update_name>sys_ui_action_71540fad2f787410c223ffecf699b6d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-17 17:39:25</sys_updated_on>
+        <sys_updated_on>2021-06-18 11:18:29</sys_updated_on>
         <table>x_631216_yunit_yunit</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
