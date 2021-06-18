@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" sizeclass="7" type="collection">
+    <element audit="true" extends="task" label="Yunit" max_length="40" name="x_631216_yunit_yunit" sizeclass="19" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Symptôme" max_length="40" name="sympt_me" type="string">
             <choice>
                 <element inactive_on_update="false" label="TEST 1" sequence="0" value="TEST 1"/>
