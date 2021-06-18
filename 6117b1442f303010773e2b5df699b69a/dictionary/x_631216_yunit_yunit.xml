@@ -15,7 +15,7 @@
         <element attributes="edge_encryption_enabled=true" label="Code lieu d’intervention" mandatory="true" max_length="40" name="u_code_lieu" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Elément de configuration" mandatory="true" max_length="32" name="u_element_de_configuration" reference="cmdb_ci_server" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Résolu le" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="Groupe d’affectation" mandatory="true" max_length="32" name="u_groupe_affection" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Groupe d’affectation" max_length="32" name="u_groupe_affection" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Lieu d'intervention" max_length="40" name="u_lieu_intervention" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Motif d’attente" max_length="40" name="u_motif_attente" type="string">
             <choice>
